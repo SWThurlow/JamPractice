@@ -1,3 +1,33 @@
 body {
   background-color: coral;
 }
+
+h1 {
+  text-align: center;
+}
+
+/*Countdown timer*/
+.countDown {
+  display: grid;
+  grid-template-areas: ". title . "
+                        "startCount . finish "
+                        "startClock . .";
+  align-items: center;
+  justify-items: center;
+}
+
+.countDown h2 {
+  grid-area: title;
+}
+
+.countDown .startCounting {
+  grid-area: startCount;
+}
+
+.countDown .finishCounting {
+  grid-area: finish;
+}
+
+.countDown .startClock {
+  grid-area: startClock;
+}
