@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+}
+
+/*main*/
+.countDownContainer {
+  min-height: 100vh;  
+  display: flex;
+  justify-content: center;
+  background: #EDEEF7;
+  color: #7868E6;
+} 
+
+/*timer*/
+.timerContainer { 
+  display: flex;
+  justify-content: center; 
+}
+
+
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .8rem;
+  padding: 15rem 0 2rem 0;
+  text-align: center;
+}
+
+.timerItem {
+  width: 150px;
+  background: #7868E6;
+  color: #EDEEF7; 
+  text-align: center;
+  padding: 1rem 1rem .5rem 1rem ;
+  margin: 0 2rem 0 0;
+}
+
+.itemValue {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.itemName {
+  font-size: .6rem;
+  letter-spacing: .8rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+  .timerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 25px;
+  }
+}
+

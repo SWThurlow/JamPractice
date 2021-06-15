@@ -5,19 +5,34 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jam Practice</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Jam Countdown</title>
+  <link rel="stylesheet" href="css/reset.css"> 
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <h1>This is Jam Practice!</h1>
-  <section class="countDown">
-    <h2>Count Down to the Jam</h2>
-    <h3 class="startCounting">Start</h3>
-    <p class="startClock"></p>
-    <h3 class="finishCounting">Finish</h3>
-  </section>
+  <main class="countDownContainer">
+    <section class="countDown">
+      <h1 class="title"> Jam is coming soon</h1>
+      <div class="timerContainer">
+        <div class="timerItem">
+          <p class="itemValue days"></p>
+          <p class="itemName">days</p>
+        </div>
+        <div class="timerItem">
+          <p class="itemValue hours"></p>
+          <p class="itemName">hours</p>
+        </div>      
+        <div class="timerItem">
+          <p class="itemValue minutes"></p>
+          <p class="itemName">minutes</p>
+        </div>
+        <div class="timerItem">
+          <p class="itemValue seconds"></p>
+          <p class="itemName">seconds</p>
+        </div>
+      </div> 
+    </section>  
+  </main>    
   <script src="script.js"></script>
 </body>
-
-</html>
+</html> 
