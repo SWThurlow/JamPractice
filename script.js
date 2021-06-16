@@ -14,7 +14,7 @@ const dom =( () => {
 })();
 
 function updateStartTime() {
-	const startDate = new Date(2021, 6, 9, 11, 00, 00).getTime();
+	const startDate = new Date(2021, 6, 9, 23, 00, 00).getTime();
     const now = new Date().getTime();
     const timeLeft = startDate - now;
 
